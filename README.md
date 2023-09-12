@@ -1,1 +1,3 @@
-# odin-project-landingpage
+# My first design landingpage 
+
+by odin project 
