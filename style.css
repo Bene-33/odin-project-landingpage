@@ -8,13 +8,14 @@ body{
 .header{
     background-color: #1F2937;
     color:#F9FAF8;
-    padding: 20px 80px;
+    padding: 20px 80px 50px;
     display:flex;
     flex-direction: column;
 }
 
 .topbar{
     display: flex;
+    margin-bottom: 50px;
 }
 
 #header_logo{
@@ -33,7 +34,8 @@ a{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
-    margin-inline: 0px 21px;
+    margin-inline-end: 21px;
+    margin-bottom: 12px;
 }
 
 h1{
@@ -43,13 +45,13 @@ h1{
 
 .header_content{
     display:flex;
-    justify-content:space-between;
+    align-items: center;
+    justify-content: space-between;
     
 }
 .header_content_left{
     display:flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
 }
@@ -59,7 +61,6 @@ h1{
     display:flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0px;
     width: 400px;
     height: 200px;
 }
