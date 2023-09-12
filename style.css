@@ -24,3 +24,8 @@ a{
     color: #F9FAF8;
     padding: 20px;
 }
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
