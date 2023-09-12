@@ -1,12 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 .header{
     background-color: #1F2937;
     color:#F9FAF8;
     padding: 0px;
-/*have to polish white border showing around header ?*/
 }
 
 .topbar{
