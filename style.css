@@ -146,8 +146,17 @@ p{
     padding: 26px 112px;
     display: flex;
     align-items: flex-end;
+    margin-bottom: 50px;
 }
 
 .banner_left{
     margin-right: 100px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 26px;
+    color: #E5E7EB;
 }
