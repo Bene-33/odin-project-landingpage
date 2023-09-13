@@ -80,16 +80,17 @@ button{
     display:flex;
     align-items: center;
     flex-direction: column;
+    color: #1F2937;
 }
 
 h2{
     font-size: 36px;
     font-weight: bold;
-    color: #1f2937;
 }
 
 .info{
     display:flex;
+    flex-wrap: wrap;
 }
 
 .illustration{
@@ -106,4 +107,28 @@ h2{
     width: 210px;
     text-align:center;
     margin: 23px;
+}
+
+.cite{
+    background-color: #E5E7EB;
+    text-align: start;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+q{
+    font-size: 36px;
+    font-style: italic;
+    width: 830px;
+    font-weight: normal;
+}
+
+p{
+    font-weight: bold;
 }
