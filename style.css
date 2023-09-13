@@ -74,11 +74,12 @@ h1{
 
 button{
     background-color: #3882F6;
-    border: #E5E7EB;
-    border-radius: 5px;
-    padding: 10px 20px;
+    border: #E5E7EB solid;
+    border-radius: 8px;
     color: #F9FAF8;
     font-weight: bold;
+    width: 100px;
+    height: 30px;
 }
 
 .content{
@@ -101,10 +102,9 @@ h2{
 .illustration{
     width:200px;
     height: 200px;
-    border: solid;
+    border: solid #3882F6;;
     border-radius: 10px;
-    border-color: #3882F6;
-}
+   }
 
 .picture_w_text{
     display: flex;
@@ -125,6 +125,7 @@ h2{
     align-items: flex-end;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-bottom: 50px;
 
 }
 q{
@@ -136,4 +137,17 @@ q{
 
 p{
     font-weight: bold;
+}
+
+.banner{
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 26px 112px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner_left{
+    margin-right: 100px;
 }
